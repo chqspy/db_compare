@@ -92,6 +92,7 @@ public class TableCompare {
      * @param dataBaseName2 数据库2数据库名称
      */
     public String compareTableStructure(DataBaseDO dataBaseDO1, String dataBaseName1, DataBaseDO dataBaseDO2, String dataBaseName2) {
+        //要比较的数据表结构字段集合
         String fieldStr = "TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,COLUMN_DEFAULT,IS_NULLABLE,DATA_TYPE," +
                 "CHARACTER_MAXIMUM_LENGTH,CHARACTER_OCTET_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE," +
                 "DATETIME_PRECISION,CHARACTER_SET_NAME,COLLATION_NAME,COLUMN_TYPE,COLUMN_KEY,EXTRA," +
