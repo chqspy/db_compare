@@ -143,6 +143,7 @@ public class Main {
                 }
             }
         });
+
         tableStructureButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 if (tableStructureButton == e.getSource()) {
